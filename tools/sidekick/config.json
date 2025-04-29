@@ -2,12 +2,12 @@
   "project": "Boilerplate",
   "plugins": [
     {
-            "id": "library",
-            "title": "Library",
-            "environments": ["edit"],
-            "url": "/tools/sidekick/library.html",
-            "includePaths": ["**.docx**"]
-},
+      "id": "library",
+      "title": "Library",
+      "environments": ["edit"],
+      "url": "/tools/sidekick/library.html",
+      "includePaths": ["**.docx**"]
+    },
     {
       "id": "cif",
       "title": "Commerce",
