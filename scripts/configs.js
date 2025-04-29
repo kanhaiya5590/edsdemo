@@ -10,8 +10,8 @@ const ALLOWED_CONFIGS = ['prod', 'stage', 'dev'];
  * @returns {string} - environment identifier (dev, stage or prod'.
  */
 export const calcEnvironment = () => {
-  const href = getHref();					// add this new line
-  const host = getOrigin();				// add this new line
+const href = getHref();					// add this new line
+const host = getOrigin();				// add this new line
   let environment = 'prod';
   if (href.includes('.aem.page') || host.includes('staging')) {
     environment = 'stage';
