@@ -54,7 +54,6 @@ export function getHref() {
   return `${parentLocation.origin}${urlParams.get('path')}`;
 }
 
-
 /**
  * Gets all the metadata elements that are in the given scope.
  * @param {String} scope The scope/prefix for the metadata
